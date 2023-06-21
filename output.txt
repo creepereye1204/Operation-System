@@ -1,0 +1,336 @@
+C:\Users\creep\.jdks\corretto-16.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=50107:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\creep\JSP\SchedulingAlgorithm\out\production\SchedulingAlgorithm Main
+FCFS
+This scheduling was started at 0
+
+pid:1
+arrivalTime:0
+ioBurstTime:2
+cpuBurstTime:1
+finishedTime:200
+turnAroundTime:200
+cpuTime:67
+ioTime:133
+waitingTime:0
+
+
+pid:2
+arrivalTime:0
+ioBurstTime:1
+cpuBurstTime:7
+finishedTime:700
+turnAroundTime:700
+cpuTime:438
+ioTime:62
+waitingTime:200
+
+
+pid:3
+arrivalTime:0
+ioBurstTime:24
+cpuBurstTime:15
+finishedTime:1200
+turnAroundTime:1200
+cpuTime:195
+ioTime:305
+waitingTime:700
+
+
+pid:4
+arrivalTime:100
+ioBurstTime:0
+cpuBurstTime:1
+finishedTime:1300
+turnAroundTime:1200
+cpuTime:100
+ioTime:0
+waitingTime:1100
+
+
+pid:5
+arrivalTime:100
+ioBurstTime:2
+cpuBurstTime:24
+finishedTime:1800
+turnAroundTime:1700
+cpuTime:462
+ioTime:38
+waitingTime:1200
+
+summary
+This scheduling was finished at 1800
+This scheduling has cpuUtilization of 70.111115%
+This scheduling has ioUtilization of 29.888885%
+This scheduling has averageThroughputPerHundredTime of 0.2777778
+This scheduling has averageTurnaroundTime of 1000.0
+This scheduling has averageWaitingTime of 640.0
+
+
+RoundRobin
+This algorithm has quantum:1
+This scheduling was started at 0
+
+pid:4
+arrivalTime:100
+ioBurstTime:0
+cpuBurstTime:1
+finishedTime:598
+turnAroundTime:498
+cpuTime:100
+ioTime:0
+waitingTime:398
+
+
+pid:1
+arrivalTime:0
+ioBurstTime:2
+cpuBurstTime:2
+finishedTime:867
+turnAroundTime:867
+cpuTime:100
+ioTime:100
+waitingTime:667
+
+
+pid:3
+arrivalTime:0
+ioBurstTime:14
+cpuBurstTime:15
+finishedTime:1765
+turnAroundTime:1765
+cpuTime:262
+ioTime:238
+waitingTime:1265
+
+
+pid:2
+arrivalTime:0
+ioBurstTime:1
+cpuBurstTime:9
+finishedTime:1766
+turnAroundTime:1766
+cpuTime:450
+ioTime:50
+waitingTime:1266
+
+
+pid:5
+arrivalTime:100
+ioBurstTime:2
+cpuBurstTime:88
+finishedTime:1801
+turnAroundTime:1701
+cpuTime:490
+ioTime:10
+waitingTime:1201
+
+summary
+This scheduling was finished at 1801
+This scheduling has cpuUtilization of 77.84564%
+This scheduling has ioUtilization of 22.154358%
+This scheduling has averageThroughputPerHundredTime of 0.2777778
+This scheduling has averageTurnaroundTime of 1319.4
+This scheduling has averageWaitingTime of 959.4
+
+
+RoundRobin
+This algorithm has quantum:10
+This scheduling was started at 0
+
+pid:4
+arrivalTime:100
+ioBurstTime:0
+cpuBurstTime:1
+finishedTime:580
+turnAroundTime:480
+cpuTime:100
+ioTime:0
+waitingTime:380
+
+
+pid:1
+arrivalTime:0
+ioBurstTime:2
+cpuBurstTime:2
+finishedTime:861
+turnAroundTime:861
+cpuTime:100
+ioTime:100
+waitingTime:661
+
+
+pid:3
+arrivalTime:0
+ioBurstTime:22
+cpuBurstTime:11
+finishedTime:1741
+turnAroundTime:1741
+cpuTime:170
+ioTime:330
+waitingTime:1241
+
+
+pid:2
+arrivalTime:0
+ioBurstTime:1
+cpuBurstTime:2
+finishedTime:1751
+turnAroundTime:1751
+cpuTime:334
+ioTime:166
+waitingTime:1251
+
+
+pid:5
+arrivalTime:100
+ioBurstTime:3
+cpuBurstTime:73
+finishedTime:1801
+turnAroundTime:1701
+cpuTime:482
+ioTime:18
+waitingTime:1201
+
+summary
+This scheduling was finished at 1801
+This scheduling has cpuUtilization of 65.8523%
+This scheduling has ioUtilization of 34.147697%
+This scheduling has averageThroughputPerHundredTime of 0.2777778
+This scheduling has averageTurnaroundTime of 1306.8
+This scheduling has averageWaitingTime of 946.8
+
+
+RoundRobin
+This algorithm has quantum:100
+This scheduling was started at 0
+
+pid:4
+arrivalTime:100
+ioBurstTime:0
+cpuBurstTime:1
+finishedTime:400
+turnAroundTime:300
+cpuTime:100
+ioTime:0
+waitingTime:200
+
+
+pid:1
+arrivalTime:0
+ioBurstTime:3
+cpuBurstTime:1
+finishedTime:801
+turnAroundTime:801
+cpuTime:50
+ioTime:150
+waitingTime:601
+
+
+pid:3
+arrivalTime:0
+ioBurstTime:2
+cpuBurstTime:11
+finishedTime:1501
+turnAroundTime:1501
+cpuTime:424
+ioTime:76
+waitingTime:1001
+
+
+pid:2
+arrivalTime:0
+ioBurstTime:2
+cpuBurstTime:8
+finishedTime:1601
+turnAroundTime:1601
+cpuTime:400
+ioTime:100
+waitingTime:1101
+
+
+pid:5
+arrivalTime:100
+ioBurstTime:3
+cpuBurstTime:30
+finishedTime:1801
+turnAroundTime:1701
+cpuTime:455
+ioTime:45
+waitingTime:1201
+
+summary
+This scheduling was finished at 1801
+This scheduling has cpuUtilization of 79.34481%
+This scheduling has ioUtilization of 20.65519%
+This scheduling has averageThroughputPerHundredTime of 0.2777778
+This scheduling has averageTurnaroundTime of 1180.8
+This scheduling has averageWaitingTime of 820.8
+
+
+SJF
+This scheduling was started at 0
+
+pid:1
+arrivalTime:0
+ioBurstTime:3
+cpuBurstTime:2
+finishedTime:200
+turnAroundTime:200
+cpuTime:80
+ioTime:120
+waitingTime:0
+
+
+pid:4
+arrivalTime:100
+ioBurstTime:0
+cpuBurstTime:1
+finishedTime:301
+turnAroundTime:201
+cpuTime:100
+ioTime:0
+waitingTime:101
+
+
+pid:2
+arrivalTime:0
+ioBurstTime:1
+cpuBurstTime:5
+finishedTime:801
+turnAroundTime:801
+cpuTime:417
+ioTime:83
+waitingTime:301
+
+
+pid:3
+arrivalTime:0
+ioBurstTime:15
+cpuBurstTime:2
+finishedTime:1301
+turnAroundTime:1301
+cpuTime:60
+ioTime:440
+waitingTime:801
+
+
+pid:5
+arrivalTime:100
+ioBurstTime:1
+cpuBurstTime:64
+finishedTime:1801
+turnAroundTime:1701
+cpuTime:493
+ioTime:7
+waitingTime:1201
+
+summary
+This scheduling was finished at 1801
+This scheduling has cpuUtilization of 63.853413%
+This scheduling has ioUtilization of 36.146587%
+This scheduling has averageThroughputPerHundredTime of 0.2777778
+This scheduling has averageTurnaroundTime of 840.8
+This scheduling has averageWaitingTime of 480.8
+
+
+
+Process finished with exit code 0
